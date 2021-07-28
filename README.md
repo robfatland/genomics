@@ -9,12 +9,15 @@ This repository is worked problems from [Rosalind project](http://rosalind.info/
 platform for learning bioinformatics through problem solving. 
 
 
-I am paying particular attention to the "text book track" problems. These are a connected series of problems
-that begin with the introduction of hidden Markov models ("HMM").  
+I am paying particular attention to the "textbook track" problems at Rosalind. These are a connected series of problems
+that begin by introducing hidden Markov models ("HMM"). As of July 2021 the website is a little confusing; so to find 
+the textbook track problems: From the **Problems** drop-down (top-center) select **List View**.
+This should bring up a *second* dropdown menu (upper right in my browser) which will include **Bioinformatics Textbook Track". 
 
 
 
 ### Notes from correspondence with a student
+
 
 A good first step for any problem is to run through the list of "what is provided to us" to try and understand what each one means. 
 For example for problem BA10B, the *string x* is simple enough: We know what strings are. I do think they should not have labeled it "x" since "x" 
