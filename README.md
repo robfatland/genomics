@@ -21,10 +21,11 @@ For example for problem BA10B, the *string x* is simple enough: We know what str
 is in the *alphabet*. And the *alphabet* comes next; it is simply the elements we might find in the string. So: x, y and z are what can appear in the string.
 The *hidden path* is like a *string*. However in Markov theory it is supposed to be "something we cannot see". So they say it is hidden. But it is going 
 to influence what the *string* looks like by means of some probabilities. So the *hidden path* consists of a sequence of *states*. 
-The *states* must *be either *A* or *B*. If the *sta*te* is A* then a new letter fro*m the **
-alphabet* will be added to the *string* 
+The *states* must be either *A* or *B*. If the *state* is *A* then a new letter from the
+*alphabet* will be added to the *string* 
 according to three probabilities: There is a 0.612 probability that 'x' will be added. 'y' has probability .314 and 'z' has probability .074.
-And so on: These are provided in the *Emission Matrix*.
+Likewise if the state is *B*.
+And so on across the entire hidden path (sequence of *states*). The connecting probabilities are provided in the *Emission Matrix*.
 
 
 Now that we have had a look at what is provided we can turn to what it is we are supposed to figure out. Ideally we were thorough 
